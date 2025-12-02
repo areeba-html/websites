@@ -1,0 +1,372 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    width: 100%;
+}
+
+.logo img {
+    height: 35px;
+    width: 130px;
+}
+
+header nav {
+    display: flex;
+}
+
+.li {
+    margin-left: 250px;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.li button {
+    font-size: 15px;
+    margin-left: 60px;
+    padding: 8px 14px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: transparent;
+    color: black;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 80px;
+    gap: 80px;
+    width: 100%;
+}
+
+.text h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.text button {
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+
+.slider_img img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+.service {
+    width: 100%;
+    padding: 80px 0;
+}
+
+.logos {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 500px;
+}
+
+.logo_button button {
+    background: rgb(108, 233, 108);
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.img_1, .img_2 {
+    width: 400px;
+    min-height: 150px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    border: 1px solid rgb(197, 196, 196);
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.1);
+}
+
+.img_1 {
+    background: rgb(241, 239, 239);
+    margin-left: 20px;
+}
+
+.img_2 {
+    background: rgb(108, 233, 108);
+}
+
+.img_1 h1, .img_2 h1 {
+    width: 180px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.img_1 h1 { background: rgb(108, 233, 108);
+padding: 10px; }
+.img_2 h1 { background: white; 
+padding: 10px;}
+
+.img_1 img, .img_2 img {
+    height: 120px;
+    width: 150px;
+    margin-left: 200px ;
+    border: transparent;
+}
+
+.img_1 p, .img_2 p {
+    margin-left: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.working_process {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    padding: 80px;
+    width: 100%;
+}
+
+.heading_button button {
+    background: rgb(108, 233, 108);
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.bootstrap {
+    width: 100%;
+    max-width: 1000px;
+    margin-left: 100px;
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(108, 233, 108) !important;
+    color: white !important;
+}
+
+.accordion-button:focus {
+    border-color: rgb(108, 233, 108) !important;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2) !important;
+}
+.About_us{
+    margin-top: 50px;
+}
+.contact{
+display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+.contact_button button{
+     background-color: rgb(108, 233, 108);
+    padding: 3px;
+    font-weight: 500px;;
+    border: none;
+    color: rgb(14, 13, 13);
+    border-radius: 10px;
+    margin-left: 90px;
+    font-size: 30px;
+    width: 260px;
+
+}
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    background: rgb(241, 239, 239);
+    margin: 100px;
+    padding: 40px;
+    border-radius: 20px;
+    gap: 40px;
+    overflow: hidden;
+    height: auto;
+}
+
+.left {
+    flex: 1;
+    width: 50%;
+}
+.right{
+    text-align: right;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       
+    
+}
+
+.right img {
+    width: 100%;
+     height: 20px;
+    max-width: 400px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 570px;
+
+}
+
+input {
+    color: black;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.send_message {
+    width: 95%;
+    background: rgb(9, 9, 36);
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+} 
+
+
+
+
+footer {
+    background: rgb(9, 9, 36);
+    padding: 50px;
+    margin: 50px 100px;
+    border-radius: 20px;
+    color: white;
+}
+
+.header_footer {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.header_footer li{
+    list-style: none;
+}
+.header_footer button{
+    border-radius: 20px;
+    border: none;
+    width: 30px;
+
+}
+
+.subscribe {
+    background: rgb(50, 49, 66);
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.subscribe input {
+    flex: 1;
+    background: rgb(79, 77, 100);
+    border: none;
+    color: white;
+    padding: 10px;
+}
+
+.subscribe button {
+    background: rgb(108, 233, 108);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+hr {
+    margin-top: 20px;
+    height: 2px;
+    width: 100%;
+    background: white;
+}
+
+.the_end {
+    margin-top: 10px;
+    font-size: 13px;
+    color: white;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.left button{
+     background-color: rgb(108, 233, 108);
+      
+    padding: 3px;
+    font-weight: 500px;;
+    border: none;
+    color: rgb(14, 13, 13);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 150px;
+
+}
+.left p{
+    color: white;
+    margin-bottom: 10px;
+}
+
