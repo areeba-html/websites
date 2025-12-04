@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  justify-content: center;
+
+}
+
+header{
+    display: flex;
+    flex-direction:row;
+    margin-top: 25px;
+    border: transparent;
+   }
+   header img{
+    height: 25px;
+    margin-left: 140px;
+   } 
+  .input-box{
+    position: relative;
+    margin-left: 20px;
+  
+    border: none;
+   
+  }
+ input{
+    padding: 12px;
+    width: 300px;
+  
+   
+  }
+  .icon{
+     position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+  }
+ 
+  input ::placeholder{
+    padding-left: 20px;
+    font: right;
+  }
+  .account{
+    margin-left: 50px;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    color: grey;
+    
+  }
+  .account:hover{
+    color: rgb(121, 121, 187);
+  }
+  
+  input :focus{
+    border: lightblue;
+  }
+  .home{
+    margin-left: 120px;
+    margin-top: 20px;
+    color: grey;
+    align-items: center;
+   justify-content: space-between;
+  }
+  .options{
+    display: flex;
+    flex-direction: row;
+  
+    cursor: pointer;
+    padding-bottom: 5px;
+   
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .options img{
+    height: 50px;
+    margin-left: 50px;
+    justify-content: center;
+   
+   
+    
+    
+  }
+  .option_1{
+      margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+
+  }
+  .option_3{
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+       border-bottom:  3px solid red;
+       padding-bottom: 30px;
+
+ 
+  }
+  .option_3 .h2{
+    margin-left: 40px;
+    color: red;
+  }
+  .option_1 h2{
+    margin-left: 50px;
+  }
+  .option_2{
+     display: flex;
+    flex-direction: row;
+  }
+  .option_2 h2{
+    margin-left: 40px;
+  }
+   .option_1 h2 a{
+     text-decoration: none;
+    color: inherit;
+   }
+   .h2 a{
+    text-decoration: none;
+    color: inherit;
+   }
+  
+  
+  .option_1 h2 a{
+     text-decoration: none;
+    color: inherit;
+   }
+   .option_2 h2 a{
+     text-decoration: none;
+    color: inherit;
+   }
+  
+  
+ 
+   .options h2{
+    font-size: 20px;
+    color: grey;
+    justify-content: center;
+   text-align: baseline;
+   margin-top: 20px;
+   }
+   .location_input{
+    display: flex;
+    flex-direction: row;
+    border: none;
+   }
+   .input-box{
+   display: flex;
+   flex-direction: row;
+   border: none;
+   background-color: transparent;
+   }
+   .btns{
+    display: flex;
+    flex-direction: row;
+   }
+   .collection{
+    background-color: rgb(245, 239, 239);
+    
+   
+   }
+   .para{
+    display: flex;
+    flex-direction: row;
+   }
+  
+   .collection h1{
+    font-size: 35px;
+     margin-left: 100px;
+     margin-top: 50px;
+   }
+    .collection p{
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+      gap: 20px;
+      font-size: 20px;
+      color: grey;
+       margin-left: 100px;
+    }
+    .collection h5{
+      margin-top: 10px;
+      color: rgb(180, 56, 56);
+      display: flex;
+      flex-direction: row;
+      font-size: 20px;
+       margin-left: 100px;
+    }
+
+   .collection_pictures{
+    display:flex;
+    flex-direction: row;
+  
+    margin-left:80px;
+    position: relative;
+    
+   }
+   .collection_pictures img{
+    width: 220px;
+    height: 290px;
+    margin: 25px;
+    border-radius: 5px;
+    filter: blur(0.9px);
+    
+
+
+   }
+   .collection_pictures p{
+    color:white;
+    position: absolute;
+    top: 250px;
+    align-content: left;
+   
+
+   }
+   .buttons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+   }
+
+  .btns{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 50px;
+  }
+   .btns button{
+  
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px  solid rgb(184, 177, 177);
+    color: grey;
+    
+   }
+   .img img{
+    margin-top: 50px;
+     width:1100px; 
+     height:230px;
+   }
+   .dining-out-resturant{
+    display: flex;
+    color: rgb(31, 30, 30);
+    font-family: Arial;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 40px;
+
+   }
+   .dining-out-resturant h1{
+    font-size: 30px;
+   }
+   .items{
+
+  display: grid;
+  grid-template-columns: repeat(3,350px);
+    gap: 30px;
+   }
+   .dishes{
+    cursor: pointer;
+    
+   }
+   .pic img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+   }
+   .text{
+    margin-left: 10px;
+    margin-bottom: 10px;
+   }
+   .text h5{
+    color: rgb(17, 17, 17);
+   
+    font-size: 20px;
+   }
+    .text h5 span{
+      margin-left: 230px;
+      
+    }
+     .text h5 span button{
+      background-color: rgb(33, 126, 33);
+      color: white;
+      border: none;
+      padding: 5px;
+      border-radius: 5px;
+      margin-top: 0;
+     }
+         .text h6{
+          color: rgb(99, 98, 98);
+          font-size: 13px;
+          margin-top: 10px;
+         }
+          .text h6 span{
+            margin-top: 10px;
+            margin-left: 40px;
+            font-size: 13px;
+          }
+
+           .text p{
+          color: rgb(99, 98, 98);
+          font-size: 13px;
+          margin-top: 10px;
+         }
+          .text p span{
+            margin-left: 280px;
+          }
+          .dishes:hover{
+            box-shadow: 2px 8px 20px  grey;
+            transition: 0.5s;
+            transform: translateY(5px);
+          }
+         .accordion-item{
+          width:900px;
+         
+        margin-top: 30px;
+          margin-left: 100px;
+         }
+      footer{
+          display: flex;
+          flex-direction: column;
+          margin-top: 100px;
+          margin-left: 100px;
+         
+         }
+        .upper{
+    display: flex;
+    flex-direction: row;
+    
+         justify-content: space-between;
+        }
+         footer img{
+         height: 25px;
+   
+         }
+        .button1{
+          margin-top: 20px;
+          margin-left:800px;
+          height: 40px;
+          border: 1px solid rgb(160, 158, 158);
+          border-radius: 5px;
+        }
+        select option {
+          border: none;
+        }
+        .button2{
+         
+          margin-left: 30px;
+          height: 40px;
+          border: 1px solid rgb(160, 158, 158);
+          border-radius: 5px;
+        }
+        .lower{
+          display: flex;
+          flex-direction: row;
+          margin-top: 70px;
+          justify-content: space-between;
+        }
+        .section1{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .section1 h1{
+          font-size: 20px;
+        }
+        .section1 p{
+          font-size: 13px;
+          color: rgb(82, 81, 81);
+        }
+        .section2{
+            display: flex;
+            flex-direction: column;
+        }
+         .section2 h1{
+          font-size: 20px;
+        }
+        .section2 p{
+          font-size: 13px;
+          color: rgb(82, 81, 81);
+        }
+        .section3{
+            display: flex;
+            flex-direction: column;
+        }
+         .section3 h1{
+          font-size: 20px;
+        }
+        .section3 p{
+          font-size: 13px;
+          color: rgb(82, 81, 81);
+        }
+        .section4{
+            display: flex;
+            flex-direction: column;
+        }
+         .section4 h1{
+          font-size: 20px;
+        }
+        .section4 p{
+          font-size: 13px;
+          color: rgb(82, 81, 81);
+        }
+        .section5{
+            display: flex;
+            flex-direction: column;
+            margin-right: 20px;
+           
+        }
+         .section5 h1{
+          font-size: 20px;
+        }
+        .section5 p{
+          font-size: 13px;
+          color: rgb(82, 81, 81);
+        }
+        .section5 img{
+          margin-top: 20px;
+          margin-bottom: 20px;
+          height: 40px;
+          align-items: center;
+          
+        }
+        .google{
+          display: flex;
+          flex-direction: column;
+        }
+        .the-end{
+          font-size: 14px;
+          color: grey;
+          margin-left: 50px;
+        }
